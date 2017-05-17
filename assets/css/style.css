@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 1cm;
+    font-weight: bold;
+}
+
+#instructions {
+    width: 600px;
+    height: 250px;
+    text-align: center;
+    margin: auto;
+}
+
+.container {
+    margin-left: 8cm;
+}
+
+#random-number {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+#points {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+#stats {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+#gemRow {
+    width: 900px;
+    margin-left: 25%;
+}
+
+.gems {
+    width: 150px;
+    height: 150px;
+}
+
+
+#buttonReset {
+    margin-left: 15cm;
+}
