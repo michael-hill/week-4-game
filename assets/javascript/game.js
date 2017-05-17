@@ -16,9 +16,7 @@ $(document).ready(function() {
     $("#blueGem").on('click', function() {
         if (blueNum) {
             scoreNow = scoreNow + blueNum;
-
             document.getElementById("scoreNow").innerHTML = scoreNow;
-
             scoreKeeper();
         } else {
             blueNum = Math.floor((Math.random() * 12) + 1);
@@ -57,7 +55,6 @@ $(document).ready(function() {
 
 
     function playAgain() {
-
         $("#buttonReset").click(function() {
             scoreToMeet = 0;
             scoreNow = 0;
@@ -95,8 +92,7 @@ $(document).ready(function() {
         gameScore = Math.floor((Math.random() * 120) + 19);
         document.getElementById("scoreToMeet").innerHTML = gameScore;
     };
-
-
+    
     givenScore();
 
 });
